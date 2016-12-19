@@ -10,13 +10,17 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.luggage.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.luggage.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.luggage/issues"
+    "url": "https://github.com/agraddy/agraddy.luggage/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.res": "^0.4.0",
+    "agraddy.test.tap": "^0.2.0"
+  },
+  "dependencies": {
+    "agraddy.async.waterfall": "^0.2.0"
   }
 }
